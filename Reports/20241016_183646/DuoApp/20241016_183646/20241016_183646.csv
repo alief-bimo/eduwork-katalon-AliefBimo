@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DuoApp,,,,16-10-2024 18:36:58,16-10-2024 18:36:59,"1,166s",FAILED
+,,,,,,,
+Test Cases/OpenDetail,,,,16-10-2024 18:36:58,16-10-2024 18:36:59,"0,741s",FAILED
+"startApplication(""C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\app-pendaki.apk"", true)",,,,16-10-2024 18:36:58,16-10-2024 18:36:59,"0,400s",FAILED
+,,,,,,,
+Test Cases/Calculator/ChooseTheme,,,,16-10-2024 18:36:59,16-10-2024 18:36:59,"0,183s",FAILED
+"startApplication(""C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\Calculator_v8.1.apk"", true)",,,,16-10-2024 18:36:59,16-10-2024 18:36:59,"0,021s",FAILED

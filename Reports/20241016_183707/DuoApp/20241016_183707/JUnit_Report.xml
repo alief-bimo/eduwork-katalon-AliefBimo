@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DuoApp" time="72.736" tests="2" failures="0" errors="0">
+   <testsuite name="DuoApp" tests="2" failures="0" errors="0" time="72.736" skipped="0" timestamp="16-10-2024T18:37:16" hostname="Bimo - DESKTOP-A27IAE8" id="Test Suites/DuoApp">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 15)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\Bimo\\Katalon Studio\\EduApp_AliefBimo\\Reports\\20241016_183707\\DuoApp\\20241016_183707"/>
+         <property name="logFiles" value="C:\\Users\\Bimo\\Katalon Studio\\EduApp_AliefBimo\\Reports\\20241016_183707\\DuoApp\\20241016_183707\\appium.log, C:\\Users\\Bimo\\Katalon Studio\\EduApp_AliefBimo\\Reports\\20241016_183707\\DuoApp\\20241016_183707\\appium_error.log, C:\\Users\\Bimo\\Katalon Studio\\EduApp_AliefBimo\\Reports\\20241016_183707\\DuoApp\\20241016_183707\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Bimo - DESKTOP-A27IAE8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.5&quot;}}}"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.5"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 15)"/>
+         <property name="deviceOSVersion" value="15"/>
+      </properties>
+      <testcase name="Test Cases/OpenDetail" time="40.365" classname="Test Cases/OpenDetail" status="PASSED">
+         <system-out><![CDATA[16-10-2024T18:37:16 - [TEST_CASE][PASSED] - Test Cases/OpenDetail: Test Cases/OpenDetail
+
+16-10-2024T18:37:16 - [TEST_STEP][PASSED] - startApplication("C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\app-pendaki.apk", true): Started application: 'C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\app-pendaki.apk'
+
+16-10-2024T18:37:17 - [MESSAGE][INFO] - Starting application: 'C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\app-pendaki.apk'
+
+16-10-2024T18:37:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+16-10-2024T18:37:22 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+16-10-2024T18:37:22 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Bimo\.appium
+
+16-10-2024T18:37:22 - [MESSAGE][INFO] - appium outlog: C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\Reports\20241016_183707\DuoApp\20241016_183707\appium.log
+
+16-10-2024T18:37:22 - [MESSAGE][INFO] - appium errlog: C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\Reports\20241016_183707\DuoApp\20241016_183707\appium_error.log
+
+16-10-2024T18:37:27 - [MESSAGE][INFO] - Appium server started on port 60.690
+
+16-10-2024T18:37:43 - [MESSAGE][PASSED] - Started application: 'C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\app-pendaki.apk'
+
+16-10-2024T18:37:43 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+16-10-2024T18:37:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-10-2024T18:37:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/OK_updateButton"), 0): Tapped on element 'Object Repository/Mobile/OK_updateButton'
+
+16-10-2024T18:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:37:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OK_updateButton'
+
+16-10-2024T18:37:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/ListPictureImageView"), 0): Tapped on element 'Object Repository/Mobile/ListPictureImageView'
+
+16-10-2024T18:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:37:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/ListPictureImageView'
+
+16-10-2024T18:37:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/BackImageButton"), 0): Tapped on element 'Object Repository/Mobile/BackImageButton'
+
+16-10-2024T18:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:37:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/BackImageButton'
+
+16-10-2024T18:37:51 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+16-10-2024T18:37:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-10-2024T18:37:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+16-10-2024T18:37:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/ChooseTheme" time="32.115" classname="Test Cases/Calculator/ChooseTheme" status="PASSED">
+         <system-out><![CDATA[16-10-2024T18:37:56 - [TEST_CASE][PASSED] - Test Cases/Calculator/ChooseTheme: Test Cases/Calculator/ChooseTheme
+
+16-10-2024T18:37:57 - [TEST_STEP][PASSED] - startApplication("C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\Calculator_v8.1.apk", true): Started application: 'C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\Calculator_v8.1.apk'
+
+16-10-2024T18:37:57 - [MESSAGE][INFO] - Starting application: 'C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\Calculator_v8.1.apk'
+
+16-10-2024T18:37:57 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+16-10-2024T18:38:02 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+16-10-2024T18:38:02 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Bimo\.appium
+
+16-10-2024T18:38:02 - [MESSAGE][INFO] - appium outlog: C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\Reports\20241016_183707\DuoApp\20241016_183707\appium.log
+
+16-10-2024T18:38:02 - [MESSAGE][INFO] - appium errlog: C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\Reports\20241016_183707\DuoApp\20241016_183707\appium_error.log
+
+16-10-2024T18:38:06 - [MESSAGE][INFO] - Appium server started on port 60.871
+
+16-10-2024T18:38:17 - [MESSAGE][PASSED] - Started application: 'C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\Calculator_v8.1.apk'
+
+16-10-2024T18:38:17 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/dotThree_Button"), 0): Tapped on element 'Object Repository/Mobile/dotThree_Button'
+
+16-10-2024T18:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:38:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/dotThree_Button'
+
+16-10-2024T18:38:20 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Choosetheme_menu"), 0): Tapped on element 'Object Repository/Mobile/Choosetheme_menu'
+
+16-10-2024T18:38:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:38:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Choosetheme_menu'
+
+16-10-2024T18:38:21 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Dark_RadioButton"), 0): Tapped on element 'Object Repository/Mobile/Dark_RadioButton'
+
+16-10-2024T18:38:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:38:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Dark_RadioButton'
+
+16-10-2024T18:38:22 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OK_Button"), 0): Tapped on element 'Object Repository/Mobile/OK_Button'
+
+16-10-2024T18:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-10-2024T18:38:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OK_Button'
+
+16-10-2024T18:38:23 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+16-10-2024T18:38:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-10-2024T18:38:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+16-10-2024T18:38:28 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-10-2024T18:37:16 - [TEST_SUITE][PASSED] - DuoApp: Test Cases/Calculator/ChooseTheme]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

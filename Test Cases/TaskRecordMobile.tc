@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TaskRecordMobile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd6b2cbb-ae0e-4c9c-862e-096e3e822f8a</testCaseGuid>
+</TestCaseEntity>

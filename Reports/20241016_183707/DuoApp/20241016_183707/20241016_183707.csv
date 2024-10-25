@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DuoApp,,,,16-10-2024 18:37:16,16-10-2024 18:38:28,"1m - 12,736s",PASSED
+,,,,,,,
+Test Cases/OpenDetail,,,,16-10-2024 18:37:16,16-10-2024 18:37:56,"40,365s",PASSED
+"startApplication(""C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\app-pendaki.apk"", true)",,,,16-10-2024 18:37:16,16-10-2024 18:37:43,"26,265s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,16-10-2024 18:37:43,16-10-2024 18:37:46,"3,074s",PASSED
+"tap(findTestObject(""Object Repository/Mobile/OK_updateButton""), 0)",,,,16-10-2024 18:37:46,16-10-2024 18:37:47,"1,670s",PASSED
+"tap(findTestObject(""Object Repository/Mobile/ListPictureImageView""), 0)",,,,16-10-2024 18:37:47,16-10-2024 18:37:49,"1,209s",PASSED
+"tap(findTestObject(""Object Repository/Mobile/BackImageButton""), 0)",,,,16-10-2024 18:37:49,16-10-2024 18:37:51,"2,421s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,16-10-2024 18:37:51,16-10-2024 18:37:54,"3,021s",PASSED
+closeApplication(),,,,16-10-2024 18:37:54,16-10-2024 18:37:56,"2,337s",PASSED
+,,,,,,,
+Test Cases/Calculator/ChooseTheme,,,,16-10-2024 18:37:56,16-10-2024 18:38:28,"32,115s",PASSED
+"startApplication(""C:\Users\Bimo\Katalon Studio\EduApp_AliefBimo\androidapp\Calculator_v8.1.apk"", true)",,,,16-10-2024 18:37:57,16-10-2024 18:38:17,"20,617s",PASSED
+"tap(findTestObject(""Mobile/dotThree_Button""), 0)",,,,16-10-2024 18:38:17,16-10-2024 18:38:20,"2,975s",PASSED
+"tap(findTestObject(""Mobile/Choosetheme_menu""), 0)",,,,16-10-2024 18:38:20,16-10-2024 18:38:21,"1,181s",PASSED
+"tap(findTestObject(""Mobile/Dark_RadioButton""), 0)",,,,16-10-2024 18:38:21,16-10-2024 18:38:22,"0,898s",PASSED
+"tap(findTestObject(""Mobile/OK_Button""), 0)",,,,16-10-2024 18:38:22,16-10-2024 18:38:23,"0,510s",PASSED
+"delay(3, STOP_ON_FAILURE)",,,,16-10-2024 18:38:23,16-10-2024 18:38:26,"3,009s",PASSED
+closeApplication(),,,,16-10-2024 18:38:26,16-10-2024 18:38:28,"2,562s",PASSED
