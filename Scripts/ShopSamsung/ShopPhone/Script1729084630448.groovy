@@ -25,7 +25,7 @@ import org.openqa.selenium.Keys as Keys
 
 TestObject SearchFormField = findTestObject('ShopSamsung/SearchForm')
 
-Mobile.startApplication('C:\\Users\\Bimo\\Katalon Studio\\EduApp_AliefBimo\\androidapp\\Shop Samsung_2.0.34917_APKPure.apk', 
+Mobile.startApplication('C:\\Users\\Bimo\\Katalon Studio\\EduApp_AliefBimo\\androidapp\\ShopSamsung_2.0.34917_APKPure.apk', 
     true)
 
 Mobile.tap(findTestObject('ShopSamsung/GuestButton'), 0)
@@ -41,6 +41,24 @@ Mobile.tap(SearchFormField, 0)
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ShopSamsung/SuggestedItem01.View'), 0)
+
+Mobile.scrollToText('Yes, trade-in', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('ShopSamsung/NoTradeIn_Button'), 0)
+
+Mobile.scrollToText('No Coverage', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('ShopSamsung/NoCoverage.Button'), 0)
+
+Mobile.scrollToText('Continue', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('ShopSamsung/ContinueCheckOut_Button'), 0)
+
+Mobile.scrollToText('Skip add-ons', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('ShopSamsung/SkipAdd-ons_Button'), 0)
+
+Mobile.tap(findTestObject('ShopSamsung/Checkout_Button'), 0)
 
 // Mendapatkan AndroidDriver dari session yang sudah berjalan
 //AndroidDriver<?> driver = MobileDriverFactory.getDriver() 

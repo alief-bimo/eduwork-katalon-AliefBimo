@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Bimo\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Shop\\AddProductByPromo\\20241025_151816\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Bimo\\AppData\\Local\\Temp\\Katalon\\Test Cases\\ShopSamsung\\ShopPhone\\20241028_134034\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Shop/AddProductByPromo', new TestCaseBinding('Test Cases/Shop/AddProductByPromo',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/ShopSamsung/ShopPhone', new TestCaseBinding('Test Cases/ShopSamsung/ShopPhone',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
